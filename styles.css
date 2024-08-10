@@ -41,7 +41,7 @@ body {
 }
 
 .hero {
-    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    background: url('public/wounderful_things.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #C5C6C7; /* Light gray text */
     display: flex;
