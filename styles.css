@@ -2,14 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #2C2F33; /* Dark gray background */
+    color: #C5C6C7; /* Light gray text for contrast */
     line-height: 1.6;
 }
 
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color: #23272A; /* Darker gray background */
+    color: #C5C6C7; /* Light gray text */
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -31,19 +31,19 @@ body {
 }
 
 .navbar ul li a {
-    color: #fff;
+    color: #66FCF1; /* Soft teal accent */
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .navbar ul li a:hover {
-    color: #007BFF;
+    color: #45A29E; /* Muted teal for hover effect */
 }
 
 .hero {
     background: url('your-hero-image.jpg') no-repeat center center/cover;
     height: 100vh;
-    color: #fff;
+    color: #C5C6C7; /* Light gray text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,17 +54,20 @@ body {
 .hero-content h1 {
     font-size: 3rem;
     margin: 0;
+    color: #66FCF1; /* Soft teal accent */
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin: 10px 0 0;
+    color: #45A29E; /* Muted teal */
 }
 
 .section {
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: #2C2F33; /* Dark gray background to match body */
     margin: 20px 0;
+    border: 1px solid #45A29E; /* Muted teal border */
 }
 
 .container {
@@ -76,7 +79,7 @@ h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #66FCF1; /* Soft teal accent */
 }
 
 .skills-list {
@@ -88,11 +91,13 @@ h2 {
 }
 
 .skills-list li {
-    background-color: #e7e7e7;
+    background-color: #23272A; /* Darker gray */
     margin: 10px;
     padding: 15px 20px;
     border-radius: 5px;
     font-size: 1rem;
+    color: #C5C6C7; /* Light gray */
+    border: 1px solid #45A29E; /* Muted teal border */
 }
 
 .project {
@@ -101,21 +106,22 @@ h2 {
 
 .project h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #45A29E; /* Muted teal */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #23272A; /* Darker gray */
+    color: #C5C6C7; /* Light gray */
 }
 
 a {
-    color: #007BFF;
+    color: #66FCF1; /* Soft teal accent */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #45A29E; /* Muted teal on hover */
 }
