@@ -170,3 +170,22 @@ footer {
     padding: 20px 0;
     margin-top: 40px;
 }
+
+/* Contact Section */
+.contact p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contact p a {
+    color: #66FCF1; /* Teal accent */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 2rem; /* Larger icon size */
+    transition: color 0.3s;
+}
+
+.contact p a:hover {
+    color: #45A29E; /* Darker teal */
+}
+
